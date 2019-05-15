@@ -1,9 +1,26 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import { HeaderComponent } from './shared/header/headercomponent';
+import { MenuComponent } from './shared/menu/menucomponent';
+import { FooterComponent } from './shared/footer/footer';
+import { ContentComponent } from './shared/content/contentcomponent';
 
 class AppComponent extends React.Component {
     render() {
-        return <h6>welcome to react world.</h6>
+        return (
+            <div>
+                <HeaderComponent />
+                <div className="row">
+                    <div className="col-2 right_menu">
+                        <MenuComponent />
+                    </div>
+                    <div className="col-10">
+                        <ContentComponent />
+                    </div>
+                </div>
+                <FooterComponent />
+            </div>
+        )
     }
 }
 

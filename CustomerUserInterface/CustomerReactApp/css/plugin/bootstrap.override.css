@@ -1,0 +1,16 @@
+.col-1, .col-2, .col-10, .col-12{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.card-header {
+    padding-left: 5px;
+}
+
+.form-group {
+    margin-bottom:5px;
+}
+
+.card-body {
+        padding: 10px;
+}

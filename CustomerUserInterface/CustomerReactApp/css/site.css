@@ -1,0 +1,32 @@
+body{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.header
+{
+    background-color:#003f7f;
+    color:#ffffff;
+    padding-top:2px;
+    padding-bottom: 2px;
+}
+
+.right_menu{
+    background-color: #dbe9f7;
+    height:90vh;    
+}
+
+.page_header{
+    background-color: #84baf1;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-weight: 12px;
+}
+
+.info_icon{
+    cursor: pointer;
+}
+
+.content{
+        height:80vh;    
+}
